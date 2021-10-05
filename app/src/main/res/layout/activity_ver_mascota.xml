@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".acciones.VerMascotaActivity">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:visibility="gone"
+            android:layout_marginStart="10dp"
+            android:text="@string/editar"
+            android:id="@+id/btn_editar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+        <Button
+
+            android:layout_gravity="center"
+            android:text="@string/borrar"
+            android:id="@+id/btn_borrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_nombre_mascota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/nombre_mascota"
+        android:textSize="20dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+
+    <ImageView
+        android:src="@drawable/logo_musapp_512px"
+        android:id="@+id/img_mascota"
+        android:layout_width="match_parent"
+        android:layout_height="350dp">
+
+    </ImageView>
+
+    <TextView
+
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:textSize="20dp"
+        android:text="esta es una descripción"
+        android:id="@+id/tv_descripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+
+
+</LinearLayout>

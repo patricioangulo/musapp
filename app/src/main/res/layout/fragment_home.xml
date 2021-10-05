@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".fragments.HomeFragment">
+
+    <Button
+        android:text="@string/filtra_por_tipo_y_ciudad"
+        android:layout_marginHorizontal="10dp"
+        android:id="@+id/btn_filtro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+    <Spinner
+
+
+        android:visibility="gone"
+        android:layout_marginHorizontal="10dp"
+        android:id="@+id/spi_ciudad"
+        android:spinnerMode="dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Spinner>
+    <Spinner
+        android:visibility="gone"
+        android:layout_marginHorizontal="10dp"
+        android:id="@+id/spi_tipo"
+        android:spinnerMode="dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Spinner>
+
+    <Button
+
+        android:visibility="gone"
+        android:text="@string/buscar"
+        android:id="@+id/btn_buscar"
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Button>
+    <Button
+        android:visibility="gone"
+        android:backgroundTint="@color/colorGris"
+        android:text="@string/borrar_filtro"
+        android:id="@+id/btn_borrar_filtro"
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+    <androidx.cardview.widget.CardView
+        android:elevation="10dp"
+        app:cardCornerRadius="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+    </androidx.cardview.widget.CardView>
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </ProgressBar>
+
+    <androidx.recyclerview.widget.RecyclerView
+
+        android:id="@+id/rv_fotos_mascotas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+    <androidx.recyclerview.widget.RecyclerView
+
+        android:visibility="gone"
+        android:id="@+id/rv_tipo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

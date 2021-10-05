@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".acciones.SubirInfoActivity">
+
+    <EditText
+        android:inputType="text"
+        android:layout_margin="10dp"
+        android:id="@+id/et_nombre_mascota"
+        android:hint="@string/nombre_mascota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_weight="0.5"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+
+                android:layout_marginStart="10dp"
+                android:text="@string/edad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <Spinner
+
+                android:spinnerMode="dialog"
+                android:id="@+id/spi_edad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_weight="0.5"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+
+                android:text="@string/y"
+                android:layout_marginEnd="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <Spinner
+
+                android:spinnerMode="dialog"
+                android:id="@+id/spi_meses"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+        </LinearLayout>
+    </LinearLayout>
+    <Spinner
+
+        android:id="@+id/spi_ciudad"
+        android:spinnerMode="dialog"
+        android:prompt="@string/selecciona_tu_ciudad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Spinner>
+    <Spinner
+        android:id="@+id/spi_tipo"
+        android:spinnerMode="dialog"
+        android:prompt="@string/selecciona_el_tipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Spinner>
+
+
+    <EditText
+        android:id="@+id/et_descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/describe_a_tu_mascota"
+        android:singleLine="false">
+
+    </EditText>
+    <Button
+        android:visibility="gone"
+        android:id="@+id/btn_prueba"
+        android:layout_margin="10dp"
+        android:background="@color/teal_200"
+        android:text="@string/prueba"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Button>
+    <Button
+        android:id="@+id/btn_selefoto"
+        android:layout_margin="10dp"
+        android:background="@color/teal_200"
+        android:text="@string/seleccionar_foto"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+    <ImageView
+        android:id="@+id/img_foto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_subir_info"
+        android:layout_margin="10dp"
+        android:background="@color/teal_200"
+        android:text="@string/subir_info"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+</LinearLayout>

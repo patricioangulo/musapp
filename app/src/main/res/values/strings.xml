@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Musapp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cerrar_sesion">Cerrar Sesion</string>
+    <string name="ir_a_subir_foto">ir a subir foto</string>
+    <string name="nombre_mascota">Pon el nombre de tu mascota</string>
+    <string name="subir_foto">Subir Foto</string>
+    <string name="seleccionar_foto">Seleccionar Foto</string>
+    <string name="pon_la_edad_de_tu_mascota">Pon la edad de tu mascota</string>
+    <string name="subir_info">subir info</string>
+    <string name="crear_mascota">Crear Mascota</string>
+    <string name="dar_en_adopcion">Dar en adopción</string>
+    <string name="adoptar">Adoptar</string>
+    <string name="agregar_mascota">Agregar Mascota</string>
+    <string name="describe_tu_mascota">Describe tu mascota</string>
+    <string name="ver_galeria">ver galeria</string>
+    <string name="describe_a_tu_mascota">Describe a tu mascota</string>
+    <string name="enviar_mensaje">Enviar Mensaje</string>
+    <string name="solicitud_enviada">Solicitud enviada</string>
+    <string name="aceptar_solicitud">Aceptar Solicitud</string>
+    <string name="amigos">Amigos</string>
+    <string name="solicitar_adopcion">Solicitar Adopción</string>
+    <string name="enviar_solicitud">Enviar Solicitud</string>
+    <string name="nombre_usuario">Nombre_usuario</string>
+    <string name="editar">Editar</string>
+    <string name="borrar">Borrar</string>
+    <string name="prueba">Prueba</string>
+    <string name="pon_los_a_os">pon los años</string>
+    <string name="pon_los_meses">pon los meses</string>
+    <string name="selecciona_tu_ciudad">Selecciona tu Ciudad</string>
+    <string name="selecciona_el_tipo">Selecciona un Tipo</string>
+    <string name="edad">Edad:</string>
+    <string name="y"><![CDATA[&]]></string>
+    <string name="busca_tu_mascota">Busca tu mascota</string>
+    <string name="tipo">Tipo</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="filtra_por_ciudad_o_tipo">filtra por ciudad o tipo</string>
+    <string name="buscar">buscar</string>
+    <string name="borrar_filtro">Borrar Filtro</string>
+    <string name="filtra_por_tipo">Filtra por Tipo</string>
+    <string name="filtra_por_tipo_y_ciudad">Filtra por Tipo y Ciudad</string>
+    <string name="escribe_un_mensaje">Escribe un mensaje...</string>
+    <string name="prueba_notificaci_n">Prueba Notificación</string>
+    <string name="generar_token">generar token</string>
+    <string name="msg_token_fmt" formatted="true">MSG</string>
+    <string name="enviar_token">ENVIAR TOKEN</string>
+    <string name="Adopta">Adopta</string>
+    <string name="tus_mascotas">Tus Mascotas</string>
+    <string name="chat">Chat</string>
+    <string name="chats">Chats</string>
+    <string name="solicitante">Solicitante</string>
+    <string name="quiere_adpotar_a">Quiere adpotar a</string>
+    <string name="mascota">Mascota</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="ignorar">Ignorar</string>
+    <string name="existe_una_nueva_versi_n">Existe una nueva versión</string>
+    <string name="la_nueva_versi_n_es">La nueva versión es:</string>
+    <string name="version">version</string>
+    <string name="actualizar">Actualizar</string>
+
+</resources>

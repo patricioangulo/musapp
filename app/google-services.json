@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1056479309638",
+    "project_id": "musapp-64ead",
+    "storage_bucket": "musapp-64ead.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056479309638:android:636f7f8faeea37c9e13f47",
+        "android_client_info": {
+          "package_name": "com.itzdare.musapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1056479309638-630252o82vjpdq2ebm5aahl2ta99hud2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA731FBA-IKBkY3oDUk5UsK6wclkTFSgg0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1056479309638-630252o82vjpdq2ebm5aahl2ta99hud2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

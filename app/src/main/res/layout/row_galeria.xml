@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_margin="10dp"
+        android:elevation="10dp"
+        app:cardCornerRadius="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:text="Perrito Sabroson"
+                android:id="@+id/tv_nombre_mascota"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+            <TextView
+                android:textSize="16dp"
+                android:text="36 meses"
+                android:id="@+id/tv_edad_mascota"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+            <TextView
+                android:textSize="16dp"
+                android:text="Santiago"
+                android:id="@+id/tv_ciudad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+
+            <ProgressBar
+                android:id="@+id/progress_bar_galeria"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </ProgressBar>
+
+            <ImageView
+
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:id="@+id/img_foto"
+                android:layout_width="match_parent"
+                android:layout_height="350dp">
+
+            </ImageView>
+            <TextView
+
+                android:textSize="16dp"
+                android:text="Es un perrito muy sabroson"
+                android:id="@+id/tv_descripcion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <Button
+                android:visibility="gone"
+                android:textSize="12dp"
+                android:gravity="end"
+                android:layout_gravity="end"
+                android:text="@string/enviar_solicitud"
+                android:id="@+id/btn_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Button>
+            <Button
+                android:visibility="gone"
+                android:textSize="12dp"
+                android:gravity="end"
+                android:layout_gravity="end"
+                android:text="@string/solicitud_enviada"
+                android:id="@+id/btn_send"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Button>
+
+            <Button
+                android:visibility="gone"
+                android:textSize="12dp"
+                android:gravity="end"
+                android:layout_gravity="end"
+                android:text="@string/aceptar_solicitud"
+                android:id="@+id/btn_tengosolicitud"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Button>
+
+            <Button
+                android:visibility="gone"
+                android:textSize="12dp"
+                android:gravity="end"
+                android:layout_gravity="end"
+                android:text="@string/enviar_mensaje"
+                android:id="@+id/btn_amigos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Button>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

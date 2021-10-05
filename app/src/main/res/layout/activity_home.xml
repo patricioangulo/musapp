@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/md_orange_500"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:text="Bienvenido a Musapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="20dp"
+        android:text="Muchas gracias por descargar Musapp una aplicación para la adopción de animalitos sin hogar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+    <Button
+
+        android:backgroundTint="@color/white"
+        android:layout_margin="10dp"
+        android:text="@string/adoptar"
+        android:textColor="@color/md_orange_500"
+        android:id="@+id/btn_adoptar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+
+    <Button
+        android:textColor="@color/md_orange_500"
+        android:backgroundTint="@color/white"
+        android:layout_margin="10dp"
+        android:id="@+id/btn_user_1"
+        android:text="@string/dar_en_adopcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+
+</LinearLayout>

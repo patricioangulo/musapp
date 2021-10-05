@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="selecciona_tu_ciudad">Selecciona tu Ciudad</string>
+    <string name="selecciona_el_tipo">Selecciona un Tipo</string>
+    <string name="edad">Edad:</string>
+    <string name="y"><![CDATA[&]]></string>
+    <string name="tus_mascotas">Tus Mascotas</string>
+    <string name="chat">Chat</string>
+    <string name="solicitante">Solicitante</string>
+</resources>
